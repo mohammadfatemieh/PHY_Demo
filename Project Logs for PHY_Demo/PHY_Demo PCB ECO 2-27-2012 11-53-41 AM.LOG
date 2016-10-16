@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetC9_1 Pin=R10-1
+Removed Pin From Net: NetName=NetR10_2 Pin=R10-2
+Removed Member From Class: ClassName=U_PHY_Demo Member=C9
+Removed Member From Class: ClassName=U_PHY_Demo Member=J1
+Removed Member From Class: ClassName=U_Ethernet_Con_Demo Member=R10
+Added Component: Designator=R100(RESC2012)
+Added Pin To Net: NetName=NetC9_1 Pin=R100-1
+Added Pin To Net: NetName=NetR10_2 Pin=R100-2
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetR100_2
+Added Member To Class: ClassName=U_Ethernet_Con_Demo Member=Component R100 75R 5%
+Added Room: Name=U_Ethernet_Con_Demo
+Added Room: Name=U_LEDS_Demo
+Added Room: Name=U_Parallel Data Interface_Demo
